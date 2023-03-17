@@ -1,0 +1,66 @@
+.inner-container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: darkslategrey;
+}
+
+
+.menu{
+    display: flex;
+    gap: 3rem;
+}
+
+.menu a{
+    display: block;
+    color: darkorange;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu li{
+    line-height: 5rem;
+}
+
+header svg{
+    width: 6.25rem;
+    position: absolute;
+    top: 0;
+    left: -1.875rem;
+}
+
+section{
+    background-color: darkgray;
+    padding: 50px 0;
+}
+
+.col{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+}
+
+.col:nth-of-type(2) {
+    background-color: chocolate;
+    position: relative;
+    left: 250px;
+    top: -100px;
+
+}
+
+.col:last-of-type{
+    background-color:sienna;
+    position: relative;
+    left: 500px;
+    top: -200px;
+}
